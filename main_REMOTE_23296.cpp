@@ -7,11 +7,10 @@ int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
 
+    Duck *d3 = new MallardDuck();
+    d3->display();
+    d3->quack();
 
-    Duck *d6 = new MallardDuck();
-    d6->display();
-    d6->quack();
-    d6->fly();
 
     return a.exec();
 }

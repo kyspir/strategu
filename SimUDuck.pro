@@ -18,7 +18,9 @@ SOURCES += \
         main.cpp \
     duck.cpp \
     mallardduck.cpp \
-    redheadduck.cpp
+    redheadduck.cpp \
+    flyable.cpp \
+    quackable.cpp
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -28,4 +30,6 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 HEADERS += \
     duck.h \
     mallardduck.h \
-    redheadduck.h
+    redheadduck.h \
+    flyable.h \
+    quackable.h
