@@ -2,9 +2,8 @@
 #define RUBBERDUCK_H
 
 #include "duck.h"
-#include "quackable.h"
 
-class RubberDuck : public Duck, Quackable
+class RubberDuck : public Duck
 {
 public:
     RubberDuck();

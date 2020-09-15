@@ -2,15 +2,11 @@
 #define MALLARDDUCK_H
 
 #include "duck.h"
-#include "flybehavior.h"
-#include "quackable.h"
 
-
-class MallardDuck : public Duck, Flyable, Quackable
-{
+class MallardDuck : public Duck {
 public:
     MallardDuck();
-    virtual void display();
+    void display();
 };
 
 #endif // MALLARDDUCK_H

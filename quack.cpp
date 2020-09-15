@@ -1,6 +1,10 @@
 #include "quack.h"
 
-quack::quack()
+Quack::Quack()
 {
 
+}
+
+void Quack::quack() {
+    cout << "Quack - Quack" << endl;
 }

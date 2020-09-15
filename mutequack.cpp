@@ -4,3 +4,7 @@ mutequack::mutequack()
 {
 
 }
+
+void mutequack::quack() {
+    cout << "....." << endl;
+}

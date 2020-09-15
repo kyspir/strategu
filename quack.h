@@ -1,11 +1,13 @@
 #ifndef QUACK_H
 #define QUACK_H
 
+#include "quackbehavior.h"
 
-class quack
+class Quack : public quackbehavior
 {
 public:
-    quack();
+    Quack();
+    virtual void quack();
 };
 
 #endif // QUACK_H

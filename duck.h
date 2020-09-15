@@ -1,16 +1,24 @@
 #ifndef DUCK_H
 #define DUCK_H
 
-#include <iostream>
+#include "quackbehavior.h"
+#include "flybehavior.h"
+#include "quack.h"
+#include "flywithwings.h"
+#include "mutequack.h"
+#include "flynoway.h"
+#include "squeak.h"
 
-using namespace std;
-
-class Duck
-{
+class Duck {
 public:
-    Duck();
+    flybehavior *flyBehavior;
+    quackbehavior *quackBehavior;
+
+    void performfly();
+    void performquack();
+
     void swim();
     virtual void display() = 0;
 };
 
-#endif // DUCK_H
+#endif

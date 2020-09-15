@@ -4,3 +4,7 @@ squeak::squeak()
 {
 
 }
+
+void squeak::quack() {
+    cout << "Squeak" << endl;
+}

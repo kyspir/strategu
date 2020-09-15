@@ -2,7 +2,8 @@
 
 RedheadDuck::RedheadDuck()
 {
-
+    quackBehavior = new Quack();
+    flyBehavior = new flywithwings();
 }
 
 void RedheadDuck::display() {

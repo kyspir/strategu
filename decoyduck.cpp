@@ -2,9 +2,10 @@
 
 DecoyDuck::DecoyDuck()
 {
-
+    quackBehavior = new mutequack();
+    flyBehavior = new flynoway();
 }
 
 void DecoyDuck::display() {
-    cout << "Im redhead duck" << endl;
+    cout << "Im decoy duck" << endl;
 }

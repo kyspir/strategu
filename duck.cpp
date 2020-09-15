@@ -1,8 +1,11 @@
 #include "duck.h"
 
-Duck::Duck()
-{
+void Duck::performfly() {
+     flyBehavior->fly();
+}
 
+void Duck::performquack() {
+     quackBehavior->quack();
 }
 
 void Duck::swim() {
