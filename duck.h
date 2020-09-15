@@ -8,6 +8,7 @@
 #include "mutequack.h"
 #include "flynoway.h"
 #include "squeak.h"
+#include "flyrocketpowered.h"
 
 class Duck {
 public:
